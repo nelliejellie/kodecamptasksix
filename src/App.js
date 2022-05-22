@@ -16,7 +16,7 @@ function App() {
   const [user, setUser] = useState("");
   return (
     <Router>
-      <div className="h-full">
+      <div className="h-full md:h-[100vh]">
         <div className=''>
           <Navbar user={user} updateUser={setUser} />
         </div>

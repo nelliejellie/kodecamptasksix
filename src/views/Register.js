@@ -58,20 +58,20 @@ const Register = ({user, updateUser}) => {
                         <img src={kodecamp} alt=""  />
                     </div>
                     <form action="" className='w-full'>
-                        <div className='border-b-4 w-[80%] md:w-[50%] md:mx-auto m-8 flex justify-between'>
+                        <div className='border-b-4 w-[80%] md:w-[70%] md:mx-auto m-8 flex justify-between'>
                             <input type="email" value={registerEmail} onChange={(e) => setregisterEmail(e.target.value)} className='w-[80%] text-lg focus:outline-none' placeholder='enter your email'/>
                             <CgProfile/>
                         </div>
-                        <div className='border-b-4 w-[80%] md:w-[50%] md:mx-auto m-8 flex justify-between'>
+                        <div className='border-b-4 w-[80%] md:w-[70%] md:mx-auto m-8 flex justify-between'>
                             <input type="password" value={registerPassword} onChange={(e) => setregisterPassword(e.target.value)} className='w-[80%] text-lg focus:outline-none' placeholder='enter your password'/>
                             <AiFillLock/>
                         </div>
-                        <div className='flex capitalize justify-between w-[80%] m-8 md:w-[50%] md:mx-auto'>
+                        <div className='flex capitalize justify-between w-[80%] m-8 md:w-[70%] md:mx-auto'>
                             <p onClick={loginWithGoogle} className='flex items-center'>login with google? <AiFillGoogleCircle className='ml-2' /></p>
                             <p>register</p>
                         </div>
                         <div className='flex uppercase justify-center w-[80%] m-8 md:w-[50%] md:mx-auto'>
-                            <button className='bg-gradient-to-r from-blue-400 to-lime-300 text-black w-[80%] p-2 rounded-full text-2xl font-bold' onClick={register}>Login</button>
+                            <button className='bg-gradient-to-r from-blue-400 to-lime-300 text-black w-[80%] p-2 rounded-full text-2xl font-bold' onClick={register}>Register</button>
                         </div>
                     </form>
                 </div>

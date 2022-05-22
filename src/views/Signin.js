@@ -58,15 +58,15 @@ const Signin = ({user, updateUser}) => {
                         <img src={kodecamp} alt=""  />
                     </div>
                     <form action="" className='w-full'>
-                        <div className='border-b-4 w-[80%] md:w-[50%] md:mx-auto m-8 flex justify-between'>
+                        <div className='border-b-4 w-[80%] md:w-[70%] md:mx-auto m-8 flex justify-between'>
                             <input type="email" value={loginEmail} onChange={(e) => setLoginEmail(e.target.value)} className='w-[80%] text-lg focus:outline-none' placeholder='enter your email'/>
                             <CgProfile/>
                         </div>
-                        <div className='border-b-4 w-[80%] md:w-[50%] md:mx-auto m-8 flex justify-between'>
+                        <div className='border-b-4 w-[80%] md:w-[70%] md:mx-auto m-8 flex justify-between'>
                             <input type="password" value={loginPassword} onChange={(e) => setLoginPassword(e.target.value)} className='w-[80%] text-lg focus:outline-none' placeholder='enter your password'/>
                             <AiFillLock/>
                         </div>
-                        <div className='flex capitalize justify-between w-[80%] m-8 md:w-[50%] md:mx-auto'>
+                        <div className='flex capitalize justify-between w-[80%] m-8 md:w-[70%] md:mx-auto'>
                             <p onClick={loginWithGoogle} className='flex items-center'>login with google? <AiFillGoogleCircle className='ml-2' /></p>
                             <Link to="/register" className='cursor-pointer'><p>register</p></Link>
                         </div>
