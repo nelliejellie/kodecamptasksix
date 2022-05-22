@@ -39,6 +39,7 @@ const Register = ({user, updateUser}) => {
     signInWithPopup(auth, provider)
     .then((re)=>{
       console.log(re)
+      return navigate("/app");
     })
     .catch((err)=>{
       console.log(err)
