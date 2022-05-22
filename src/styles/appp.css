@@ -1,0 +1,5 @@
+@media screen and (min-width:1026px){
+    .downbar{
+        display: none;
+    }
+}

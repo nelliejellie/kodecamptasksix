@@ -1,0 +1,29 @@
+.landingPage{
+    height: 100vh;
+}
+.writeup-container, .image-container{
+    width: 50%;
+}
+.writeup-header{
+    font-weight: bold;
+    font-size: 100px;
+    max-width: 100%;
+    letter-spacing: 2px;
+    line-height: 100%;
+}
+.writeup-write{
+    line-height: 150%;
+}
+
+@media screen and (max-width:768px){
+    .landingPage{
+        height: 150vh;
+    }
+    .writeup-container, .image-container{
+        margin: 10px;
+        width: 80%;
+    }
+    .writeup-header{
+        font-size: 50px;
+    }
+}
