@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/kodecamptasksix/static/css/main.4d8482d5.css",
-    "main.js": "/kodecamptasksix/static/js/main.5d4e11bf.js",
+    "main.js": "/kodecamptasksix/static/js/main.8188a650.js",
     "static/media/lady-reading.png": "/kodecamptasksix/static/media/lady-reading.0a7f9318835f566e6f1c.png",
     "static/media/femalestudent.jpg": "/kodecamptasksix/static/media/femalestudent.6c0b9beb4181ed32f315.jpg",
     "static/media/kodecamp.jpg": "/kodecamptasksix/static/media/kodecamp.6eb021cdea2d36807dbc.jpg",
     "static/media/loginguy.webp": "/kodecamptasksix/static/media/loginguy.c5c8d09156f43b3e2caf.webp",
     "index.html": "/kodecamptasksix/index.html",
     "main.4d8482d5.css.map": "/kodecamptasksix/static/css/main.4d8482d5.css.map",
-    "main.5d4e11bf.js.map": "/kodecamptasksix/static/js/main.5d4e11bf.js.map"
+    "main.8188a650.js.map": "/kodecamptasksix/static/js/main.8188a650.js.map"
   },
   "entrypoints": [
     "static/css/main.4d8482d5.css",
-    "static/js/main.5d4e11bf.js"
+    "static/js/main.8188a650.js"
   ]
 }
