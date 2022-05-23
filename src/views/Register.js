@@ -1,5 +1,5 @@
 import React, { useState,useEffect } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 import loginguy from '../assets/images/loginguy.webp'
 import kodecamp from '../assets/images/kodecamp.jpg'
 import '../styles/signin.css'
@@ -68,8 +68,8 @@ const Register = ({user, updateUser}) => {
                             <AiFillLock/>
                         </div>
                         <div className='flex capitalize justify-between w-[80%] m-8 md:w-[70%] md:mx-auto'>
-                            <p onClick={loginWithGoogle} className='flex items-center'>login with google? <AiFillGoogleCircle className='ml-2' /></p>
-                            <p>register</p>
+                            <p onClick={loginWithGoogle} className='flex items-center cursor-pointer'>login with google? <AiFillGoogleCircle className='ml-2' /></p>
+                            <Link to="/login" className='cursor-pointer'><p>login</p></Link>
                         </div>
                         <div className='flex uppercase justify-center w-[80%] m-8 md:w-[50%] md:mx-auto'>
                             <button className='bg-gradient-to-r from-blue-400 to-lime-300 text-black w-[80%] p-2 rounded-full text-2xl font-bold' onClick={register}>Register</button>

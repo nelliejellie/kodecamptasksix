@@ -68,7 +68,7 @@ const Signin = ({user, updateUser}) => {
                             <AiFillLock/>
                         </div>
                         <div className='flex capitalize justify-between w-[80%] m-8 md:w-[70%] md:mx-auto'>
-                            <p onClick={loginWithGoogle} className='flex items-center'>login with google? <AiFillGoogleCircle className='ml-2' /></p>
+                            <p onClick={loginWithGoogle} className='flex items-center cursor-pointer'>login with google? <AiFillGoogleCircle className='ml-2' /></p>
                             <Link to="/register" className='cursor-pointer'><p>register</p></Link>
                         </div>
                         <div className='flex uppercase justify-center w-[80%] m-8 md:w-[50%] md:mx-auto'>
